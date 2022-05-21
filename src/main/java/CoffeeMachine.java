@@ -15,5 +15,8 @@ public class CoffeeMachine {
             System.out.println(String.format("Here is your change %.2f$", curr_money-coffee_price));
             curr_money = 0;
         }
+        else {
+            System.out.println("Not Enough Money! :(\n");
+        }
     }
 }

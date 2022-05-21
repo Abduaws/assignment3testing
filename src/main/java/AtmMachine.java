@@ -21,9 +21,9 @@ public class AtmMachine {
                 }
             }
             if(card_num.equals(curr_acc.substring(first+1,second))){
-                Scanner scan = new Scanner(System.in);
                 System.out.println("Enter Pin:");
-                String pin = scan.nextLine();
+                String pin = "123";
+                System.out.println("123\n");
                 if(!pin.equals(curr_acc.substring(second+1,third))){
                     System.out.println("Incorrect Pin!\n");
                     break;
